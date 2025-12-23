@@ -1,6 +1,41 @@
 {
-  "editor.formatOnSave": false,
+  "liveServer.settings.CustomBrowser": "chrome",
+  "github.copilot.advanced": {},
+  "workbench.editor.enablePreview": false,
+  "editor.minimap.enabled": false,
+  "git.autofetch": true,
+  "jdk.telemetry.enabled": true,
+  "[java]": {
+    "editor.defaultFormatter": "redhat.java"
+  },
+  "workbench.editorAssociations": {
+    "*.copilotmd": "vscode.markdown.preview.editor",
+    "*.class": "decompiled.javaClass",
+    "*.java": "default"
+  },
+  "editor.inlineSuggest.enabled": false,
+  "[vue]": {
+    "editor.defaultFormatter": "Vue.volar"
+  },
+  "workbench.sideBar.location": "right",
+  "workbench.iconTheme": "vscode-icons",
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "json.schemas": [],
+  "html.format.extraLiners": "",
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "workbench.settings.applyToAllProfiles": [
+    "eslint.format.enable"
+  ],
+  "editor.formatOnSave": true,
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": "explicit"
-  }
+    "source.fixAll.eslint": "always"
+  },
+  "editor.defaultFormatter": "dbaeumer.vscode-eslint"
 }

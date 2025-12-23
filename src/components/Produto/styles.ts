@@ -1,13 +1,9 @@
 import styled from 'styled-components'
-
 import { cores } from '../../styles'
-
 export const Produto = styled.div``
-
 export const Titulo = styled.h3`
   min-height: 64px;
 `
-
 export const Capa = styled.div`
   position: relative;
 
@@ -17,7 +13,6 @@ export const Capa = styled.div`
     margin-bottom: 8px;
   }
 `
-
 export const Prices = styled.div`
   margin: 16px 0;
   color: #fff;
@@ -33,7 +28,6 @@ export const Prices = styled.div`
     font-size: 18px;
   }
 `
-
 export const Tag = styled.span`
   background-color: ${cores.corPrincipal};
   position: absolute;

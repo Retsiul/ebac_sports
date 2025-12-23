@@ -1,6 +1,5 @@
 import styled from 'styled-components'
 import { cores } from '../../styles'
-
 export const Header = styled.header`
   background-image: linear-gradient(
     45deg,
